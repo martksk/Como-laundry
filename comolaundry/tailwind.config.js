@@ -14,6 +14,19 @@ module.exports = {
       widest: '3.5rem',
     },
     extend: {
+      // that is animation class
+      animation: {
+        fade: 'fadeOut 5s ease-in-out',
+      },
+
+      // that is actual animation
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      }),
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
