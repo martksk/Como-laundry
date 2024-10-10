@@ -121,16 +121,6 @@
 //   return <SwipeCarousel />;
 // }
 
-
-
-
-
-
-
-
-
-
-
 // 'use client';
 
 // import React, { useEffect, useState } from "react";
@@ -200,7 +190,7 @@
 //         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-10">
 //         <Dots imgIndex={imgIndex} setImgIndex={setImgIndex} />
 //       </div>
-        
+
 //       </motion.div>
 //     </div>
 //   );
@@ -226,7 +216,6 @@
 //   );
 // };
 
-
 // const Dots = ({ imgIndex, setImgIndex }) => {
 //   return (
 //     <div className="flex w-full justify-center gap-2">
@@ -243,41 +232,20 @@
 //   );
 // };
 
-
 // export default function Preview() {
 //   return <SwipeCarousel />;
 // }
 
-
-
-
-
-
-
-
-
-
-'use client';
+"use client";
 
 import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import img1 from '/work/Como-laundry/comolaundry/public/images/como1.jpg'
-import img2 from '/work/Como-laundry/comolaundry/public/images/como2.jpg'
-import img3 from '/work/Como-laundry/comolaundry/public/images/como3.jpg'
-import img4 from '/work/Como-laundry/comolaundry/public/images/como4.jpg'
-
-// const imgs = [
-//     'https://cms.otteriwashdry.com/assets/fd7b9735-cf11-4968-be41-d1ea4589aa25',
-//     'https://cms.otteriwashdry.com/assets/9bc3ecd4-cd97-4771-8717-6e7a7095bc72',
-//     'https://cms.otteriwashdry.com/assets/6ddb269f-675e-4a67-89e1-e9a168e6b479',
-//     'https://cms.otteriwashdry.com/assets/51007b8b-35de-48ce-ae63-8200c6942e65'
-// ];
 
 const imgs = [
-  '/images/como2.jpg',
-  '/images/como1.jpg',
-  '/images/como3.jpg',
-  '/images/como5.jpg'
+  "/images/como2.jpg",
+  "/images/como1.jpg",
+  "/images/como3.jpg",
+  "/images/como5.jpg",
 ];
 
 const ONE_SECOND = 1000;
@@ -384,4 +352,3 @@ const Dots = ({ imgIndex, setImgIndex }) => {
 export default function Preview() {
   return <SwipeCarousel />;
 }
-

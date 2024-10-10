@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full h-screen overflow-y-scroll no-scrollbar">
+        <div className="w-full overflow-y-scroll no-scrollbar">
           <Navbar className="fixed top-0 left-0 right-0 z-50 shadow-md" />
           {children}
           <Footer />
@@ -23,4 +23,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
