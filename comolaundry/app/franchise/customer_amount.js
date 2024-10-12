@@ -3,26 +3,35 @@ export default function CustomerAmount() {
   return (
     <div className="grid grid-cols-1 justify-center items-center text-black">
       <div className="grid grid-cols-1 justify-center items-center text-black">
-        <div className="text-center text-xl md:text-5xl tracking-wider mb-2">
-          MAKE BETTER TO
-        </div>
-        <div className="text-center text-4xl sm:text-6xl md:text-9xl tracking-wider font-bold mb-12">
-          FUTURE
+        <div className="text-center text-xl md:text-5xl mb-16">
+          ลูกค้าแฟรนไชน์
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center text-center text-black text-lg md:text-2xl mb-4">
-        <div>
-          โคโม่ ใช้เครื่องซักผ้า แบรนด์ Yamamoto
-          เป็นเทคโนโลยีเครื่องซักผ้าที่ดีที่สุดในญี่ปุ่น
+      <div className="flex flex-col justify-center items-left text-left text-black text-lg md:text-2xl mb-4">
+        <div className="font-bold pb-10">
+        ทำไมต้อง Como Laundry
         </div>
-        <div>
-          เป็นเครื่องซัก+อบในเครื่องเดียวกันนำเข้าเป็นเจ้าแรก
-          และมุ่งเน้นความสะดวกสบายให้กับลูกค้า
+        <div className="indent-10">
+        ● เครื่องจักรจากประเทศญี่ปุ่น เกรดอุตสาหกรรม ทันสมัย ตอบโจทย์ทุกความต้องการ มาตรฐานสากล
         </div>
-        <div>
-          ใช้เทคโนโลยีที่ทันสมัยที่สุด และมีคุณภาพ สร้างผลลัพธ์ทำให้เกิด passive
-          income
+        <br/>
+        <div className="indent-10">
+        ● รับประกันเครื่อง 3 ปี รับประกันเครื่องจักรตามเงื่อนไขของบริษัท ตลอดระยะเวลา 3 ปี
         </div>
+        <br/>
+        <div className="indent-10">
+        ● ประเมินพื้นที่ฟรี
+        </div>
+        <br/>
+        <div className="indent-10">
+        ● ไม่เก็บ % ส่วนแบ่งรายได้จากเจ้าของร้าน
+        </div>
+        <br/>
+        <div className="indent-10">
+        ● Online Management System ช่องทางสแกนแลกรับเงินผ่านระบบ QR Payment เพื่อเพิ่มความสะดวกสบายของผู้ลงทุน และลูกค้า
+        </div>
+        <br/>
+        
       </div>
       {/* <div className="flex flex-col justify-center items-center text-black text-2xl">
         

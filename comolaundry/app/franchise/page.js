@@ -6,10 +6,10 @@ import Ottolove from "./ottolove";
 export default function FranchisePage() {
   return (
     <div>
-      <div className=" bg-gray-200 flex justify-center items-center">
-        <Ottolove />
+      <div className="w-full h-[330px] bg-cover bg-center "
+        style={{ backgroundImage: "url('/images/franchise-washer.jpg')" }}>
       </div>
-      <div className="p-24 bg-white">
+      <div className="py-24 px-96 bg-white">
         <CustomerAmount />
       </div>
     </div>
