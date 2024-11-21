@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "./navbar/page";
-import Footer from "./footer/page";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,11 +14,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full overflow-y-scroll scrollbar-hide">
-          {/* <Navbar className="fixed top-0 left-0 right-0 z-50 shadow-md" /> */}
+        <section className="w-full scrollbar-hide">
+          <Navbar className="sticky top-0" />
           {children}
           <Footer />
-        </div>
+        </section>
       </body>
     </html>
   );
