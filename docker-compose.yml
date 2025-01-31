@@ -3,6 +3,8 @@ services:
   nextjs:
     build: .
     container_name: nextjs
+    ports:
+      - "3000:3000"
   
   nginx:
     image: nginx:alpine
